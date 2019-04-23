@@ -29,7 +29,7 @@ public class SortTest {
 	@BeforeMethod
 	public void setupBeforeTest() throws MalformedURLException {
 		System.setProperty("webdriver.chrome.driver", "");
-		driver = new RemoteWebDriver(new URL("http://192.168.99.100:4444/wd/hub"), chromeCapabilities);
+		driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), chromeCapabilities);
 	}
 
 	@AfterMethod
@@ -39,7 +39,7 @@ public class SortTest {
 	
 	@Test
 	public void sort () {
-		driver.get("http://192.168.99.100:49160");
+		driver.get("http://node:3000/");
 		
 		// Take a picture before
 		Timestamp timestamp = new Timestamp(System.currentTimeMillis());
