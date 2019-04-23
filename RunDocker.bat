@@ -1,2 +1,2 @@
 docker build -t node/carbon .
-docker-compose up -d
+docker-compose up
