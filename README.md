@@ -11,11 +11,7 @@
 ### Requirement
 * JDK 1.8
 * Node JS (includes npm) Last Version (Preferred)
-* DockerToolbox
-
-Have Docker running on IP 192.168.99.100 as in the following image: https://i.stack.imgur.com/epqfT.png
-
-To do this, install the DockerToolbox and run it. Download link (DockerToolbox): https://download.docker.com/win/stable/DockerToolbox.exe
+* Docker
 
 PS: Done and tested in Windows system. Run the test in Windows system, because of the RunTest.bat file.
 
